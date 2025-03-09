@@ -2,33 +2,65 @@
     {
         "title": "Sabona Marara",
         "place": "amboo",
-        "description": "Beautiful mountain landscape at sunrise",
+        "description": "Magaalaa amboo keessatti argamuu kutaa 2 kan qabuu",
         "imagePath": "ho1.png",
-        "price": 100,
+        "price": 1000,
         "phone":"0928629040"
     },
     {
         "title": "Gadisaa Abara",
         "place": "finchaa",
-        "description": "Serene forest pathway in autumn",
+        "description": "Magaalaa finchaa keessatti argamuu kutaa 2 kan qabuu",
         "imagePath": "ho2.png",
         "price": 133,
         "phone":"0928629640"
     },
     {
         "title": "Etafaa Tarikuu",
-        "place": "buree",
-        "description": "Colorful sunset over the ocean waves",
+        "place": "burayu",
+        "description": "Magaalaa buree keessatti argamuu kutaa 2 kan qabuu",
         "imagePath": "ho3.png",
         "price": 156,
         "phone":"0928629040"
     },
     {
         "title": "Guyyoo Gadaa",
-        "place": "buree",
+        "place": "yabello",
         "description": "yabellotti kan argamu kutaa cisich 2 kan qabuu",
         "imagePath": "bru_log.png",
         "price": 1500,
+        "phone":"0928629045"
+    },
+    {
+        "title": "Sabona Marara",
+        "place": "amboo",
+        "description": "Magaalaa amboo keessatti argamuu kutaa 2 kan qabuu",
+        "imagePath": "ho1.png",
+        "price": 1000,
+        "phone":"0928629040"
+    },
+    {
+        "title": "Gadisaa Abara",
+        "place": "finchaa",
+        "description": "Magaalaa finchaa keessatti argamuu kutaa 2 kan qabuu",
+        "imagePath": "ho2.png",
+        "price": 1600,
+        "phone":"0928629640"
+    },
+    {
+        "title": "Etafaa Tarikuu",
+        "place": "burayu",
+        "description": "Magaalaa buree keessatti argamuu kutaa 4 kan qabuu",
+        "imagePath": "ho3.png",
+        "price": 2000,
+        "phone":"0928629040"
+    },
+    {
+        "title": "Guyyoo Gadaa",
+        "place": "yabello",
+        "description": "yabellotti kan argamu kutaa cisich 3 kan qabuu",
+        "imagePath": "../assets/images/s2.png",
+        "price": 1800,
         "phone":"0928629045"
     }
 ]
