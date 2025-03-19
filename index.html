@@ -124,6 +124,13 @@
         color: #6c63ff;
         margin-bottom: 0.75rem;
       }
+      h3{
+        color: rgb(253, 245, 253);
+        text-align: center;
+        background-color: #0b0b0b;
+        padding: 10px 10px;
+        border-radius: 10px;
+      }
       .item-container p {
         color: #555;
         line-height: 1.4;
@@ -171,7 +178,9 @@
       />
     </div>
     <div id="content-container"></div>
+    <h3 id="year"></h3>
     <script>
+        document.getElementById("year").innerHTML = "&copy; " + new Date().getFullYear() + " All right Received By Sabona Marara";
       fetch("descriptions.json")
         .then((response) => response.json())
         .then((data) => {
