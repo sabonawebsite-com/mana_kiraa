@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Sabona Marara",
+        "place": "amboo",
+        "description": "Magaalaa amboo keessatti kan argamuu ",
+        "imagePath": "hu6.jpg",
+        "price": 1000,
+        "phone":"0928629040"
+    },
+    {
+        "title": "Gadisaa Abara",
+        "place": "finchaa",
+        "description": "Magaalaa finchaa keessatti argamuu",
+        "imagePath": "hu1.jpg",
+        "price":1500,
+        "phone":"0928629640"
+    },
+    {
+        "title": "Etafaa Tarikuu",
+        "place": "burayu",
+        "description": "Magaalaa buree keessatti argamuu ",
+        "imagePath": "hu2.jpg",
+        "price": 156,
+        "phone":"0928629040"
+    },
+    {
+        "title": "Guyyoo Gadaa",
+        "place": "yabello",
+        "description": "yabellotti kan argamu ",
+        "imagePath": "hu3.jpg",
+        "price": 4000,
+        "phone":"0928629045"
+    },
+    {
+        "title": "Sabona Marara",
+        "place": "amboo",
+        "description": "Magaalaa amboo keessatti argamuu",
+        "imagePath": "hu3.jpg",
+        "price": 1000,
+        "phone":"0928629040"
+    },
+    {
+        "title": "Gadisaa Abara",
+        "place": "finchaa",
+        "description": "Magaalaa finchaa keessatti kan argamuu ",
+        "imagePath": "hu4.jpg",
+        "price": 1600,
+        "phone":"0928629640"
+    },
+    {
+        "title": "Etafaa Tarikuu",
+        "place": "burayu",
+        "description": "Magaalaa burayu keessatti kan argamuu",
+        "imagePath": "hu5.jpg",
+        "price": 2000,
+        "phone":"0928629040"
+    },
+    {
+        "title": "Guyyoo Gadaa",
+        "place": "yabello",
+        "description": "yabellotti kan argamu",
+        "imagePath": "hu6.jpg",
+        "price": 1800,
+        "phone":"0928629045"
+    },
+    {
+        "title": "Guyyao boruu",
+        "place": "yabello",
+        "description": "yabellotti kan argamu ",
+        "imagePath": "hu7.jpg",
+        "price": 1500,
+        "phone":"0928629111"
+    },
+    {
+        "title": "Usman badhasa",
+        "place": "Arsii",
+        "description": "Arsii tti kan argamu",
+        "imagePath": "hu8.jpg",
+        "price": 1800,
+        "phone":"0928629045"
+    },
+    {
+        "title": "Qasim badhasa",
+        "place": "Asallaa",
+        "description": "Asallaatti gatii gidugalesaan kan gurguramu",
+        "imagePath": "hu9.jpg",
+        "price": 2000,
+        "phone":"0928629035"
+    }
+]
