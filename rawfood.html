@@ -1,69 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mannen Kireefaman</title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-  </head>
-  <body>
-    <div class="list-ittem">
-      <a href="https://forms.gle/74eE5yvAygZg1Eqk9">Kiraa Latachudhaf</a>
-      <a class="yaada" href="contact.html">Yaada Yoo Qabatee</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mannen Kireefaman</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+</head>
+<style>
+  label {
+    font-size: 20px;
+    margin-left: 10px;
+    color: green;
+  }
+  #popup-container {
+    display: none; /* Initially hidden */
+    position: fixed;  /* Overlay the entire window */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    justify-content: center; /* Center content horizontally */
+    align-items: center;    /* Center content vertically */
+    z-index: 1000; /* Ensure it's on top of everything */
+}
+#popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+    max-width: 80%; /* Responsive width */
+    max-height: 80%; /* Responsive height */
+    overflow: auto; /* Enable scrolling if content is too large */
+}
+#popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #888;
+}
+#popup-close:hover {
+    color: #222;
+}
+
+/* Styles for the advertisement image */
+.ad-image {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto;    /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners for the image */
+    margin-bottom: 10px; /* Add some space below the image */
+}
+</style>
+<body>
+  <div id="popup-container">
+    <div id="popup-content">
+        <span id="popup-close">&times;</span>
+        <h2>Special Offer!</h2>
+        <img src="hu7.jpg" alt="Advertisement" class="ad-image">
+        <p>Get 20% off your first purchase!  Use code: WELCOME20</p>
+        <a href="https://sabonawebsite-com.github.io/hotel-caffe/" id="popup-button">Learn More</a>
     </div>
-    <div id="search-container">
-      <h1>Manneen Kirefaman</h1>
-      <p>Idoo kirefachuu barbadde:</p>
-      <input
-        type="text"
-        id="place-search"
-        placeholder="Idoo kirefachuu barbadde barresi"
-      />
-    </div>
-    <div id="content-container"></div>
-    <h3 id="year"></h3>
-    <script>
-      document.getElementById("year").innerHTML =
-        "&copy; " +
-        new Date().getFullYear() +
-        " All right Received By Sabona Marara";
-      fetch("descriptions.json")
-        .then((response) => response.json())
-        .then((data) => {
-          let items = data;
-          function generateItemsHtml(items) {
-            return items
-              .map(
-                (item) => `  
-                        <div class="item-container">  
-                            <img class="item-image" src="${item.imagePath}" alt="${item.title}">  
-                            <h2> Abba Qabeenya:${item.title}</h2>  
-                            <h3> Bakk Argama:${item.place}</h3>  
-                            <p>${item.description}</p>  
-                            <p>Gatii: Birr ${item.price}</p> 
-                            <p>Lakk: ${item.phone} </p>
-                        </div>  
-                    `
-              )
-              .join("");
-          }
-          function renderItems(items) {
-            document.getElementById("content-container").innerHTML =
-              generateItemsHtml(items);
-          }
-          renderItems(items);
-          document
-            .getElementById("place-search")
-            .addEventListener("input", function () {
-              const searchTerm = this.value.toLowerCase();
-              const filteredItems = data.filter((item) =>
-                item.place.toLowerCase().includes(searchTerm)
-              );
-              renderItems(filteredItems);
-            });
-        })
-        .catch((error) => console.error("Error loading data:", error));
-    </script>
-  </body>
+</div>
+  <div class="list-ittem">
+    <a href="https://forms.gle/74eE5yvAygZg1Eqk9">Kiraa Latachudhaf</a>
+    <a class="yaada" href="contact.html">Yaada Yoo Qabatee</a>
+  </div>
+  <div id="search-container">
+    <h1>Manneen Kirefaman</h1>
+    <p>Idoo kirefachuu barbadde:</p>
+    <input
+      type="text"
+      id="place-search"
+      placeholder="Idoo kirefachuu barbadde barresi"
+    />
+  </div>
+  <div id="content-container"></div>
+  <h3 id="year"></h3>
+  
+  <script>
+       // Get references to the popup elements
+       const popupContainer = document.getElementById('popup-container');
+       const popupClose = document.getElementById('popup-close');
+       const popupButton = document.getElementById('popup-button');
+       const popupContent = document.getElementById('popup-content')
+
+       // Function to show the popup
+       function showPopup() {
+           popupContainer.style.display = 'flex'; // Use flexbox for centering
+           // You could also use 'block', but 'flex' is generally better for centering.
+       }
+
+       // Function to hide the popup
+       function hidePopup() {
+           popupContainer.style.display = 'none';
+       }
+
+       // Event listener for the close button
+       popupClose.addEventListener('click', hidePopup);
+
+       // Event listener for the button in the popup
+       popupButton.addEventListener('click', function() {
+           //  Add your code here to handle the button click, e.g.,
+           //  redirect to a product page, open a form, etc.
+           alert('Redirecting to offer page...'); // Placeholder action
+           hidePopup(); // Close the popup after the action
+       });
+
+       // Event listener for clicks outside the popup content area
+       popupContainer.addEventListener('click', function(event) {
+           if (event.target === popupContainer) {
+               hidePopup();
+           }
+       });
+
+       // Set a timeout to show the popup after 10 seconds (10000 milliseconds)
+       setTimeout(showPopup, 10000);
+    document.getElementById("year").innerHTML =
+      "&copy; " +
+      new Date().getFullYear() +
+      " All right Received By Sabona Marara";
+    fetch("descriptions.json")
+      .then((response) => response.json())
+      .then((data) => {
+        let items = data;
+        function generateItemsHtml(items) {
+          return items
+            .map(
+              (item) => `
+                  <div class="item-container">
+                    <img class="item-image" src="${item.imagePath}" alt="${item.title}">
+                    <h2> Abba Qabeenya:${item.title}</h2>
+                    <h3> Bakk Argama:${item.place}</h3>
+                    <p>${item.description}</p>
+                    <p>Gatii: Birr ${item.price}</p>
+                    <p>Lakk: ${item.phone} </p>
+                    <label for="check">Latameera</label>
+                    <input type ="checkbox" id="check" name="check" value="check">
+                  </div>
+                `
+            )
+            .join("");
+        }
+        function renderItems(items) {
+          document.getElementById("content-container").innerHTML =
+            generateItemsHtml(items);
+        }
+        renderItems(items);
+        document
+          .getElementById("place-search")
+          .addEventListener("input", function () {
+            const searchTerm = this.value.toLowerCase();
+            const filteredItems = data.filter((item) =>
+              item.place.toLowerCase().includes(searchTerm)
+            );
+            renderItems(filteredItems);
+          });
+      })
+      .catch((error) => console.error("Error loading data:", error));
+  </script>
+</body>
 </html>
