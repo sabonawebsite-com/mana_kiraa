@@ -1,90 +1,108 @@
 [
     {
-        "title": "Sabona Marara",
+        "title": "Coffee",
         "place": "amboo",
-        "description": "Magaalaa amboo keessatti kan argamuu kutaa 2 kan qabuu",
-        "imagePath": "food_1.jpg",
-        "price": 1000,
+        "description": "My Caffe coffee is a high-quality, specialty-grade coffee known for its exceptional flavor profile, carefully sourced beans likely Arabica grown at high altitudes in Yebelo, Oromia), and meticulous processing. It's roasted to highlight its inherent sweetness, balanced acidity, and unique aromatic notes, delivering a clean and satisfying cup.",
+        "imagePath": "coffee_1.jpg",
+        "price": 20,
         "phone":"0928629040"
     },
     {
-        "title": "Gadisaa Abara",
-        "place": "finchaa",
-        "description": "Magaalaa finchaa keessatti argamuu kutaa 2 kan qabuu",
-        "imagePath": "food_2.jpg",
-        "price": 133,
+        "title": "Tea",
+        "place": "Boranaa University employees caffe",
+        "description": "My Caffe Tea is a carefully selected, high-quality tea known for its distinctive flavor and aromatic qualities.",
+        "imagePath": "Tea_1.jpg",
+        "price": 15,
         "phone":"0928629640"
     },
     {
-        "title": "Etafaa Tarikuu",
-        "place": "burayu",
-        "description": "Magaalaa buree keessatti argamuu kutaa 2 kan qabuu",
-        "imagePath": "food_3.jpg",
-        "price": 156,
+        "title": "Milk",
+        "place": "Boranaa University employees caffe",
+        "description": "My Caffe Milk is fresh, locally sourced milk from Yebelo, Oromia. It's known for its creamy texture and natural sweetness, providing a rich and wholesome addition to your coffee or tea.",
+        "imagePath": "milk_1.jpg",
+        "price": 15,
         "phone":"0928629040"
     },
     {
-        "title": "Guyyoo Gadaa",
-        "place": "yabello",
-        "description": "yabellotti kan argamu kutaa  5 kan qabuu",
-        "imagePath": "food_4.jpg",
-        "price": 4000,
-        "phone":"0928629045"
-    },
-    {
-        "title": "Sabona Marara",
-        "place": "amboo",
-        "description": "Magaalaa amboo keessatti argamuu kutaa 2 kan qabuu",
-        "imagePath": "food_5.jpg",
-        "price": 1000,
+        "title": "Bread",
+        "place": "Boranaa University employees caffe",
+        "description": "My Caffe Bread is freshly baked daily in Yebelo, Oromia, using local ingredients. It's known for its soft texture, delicious flavor, and comforting aroma, making it a perfect accompaniment to your coffee or tea.",
+        "imagePath": "bread_1.jpg",
+        "price": 20,
         "phone":"0928629040"
     },
     {
-        "title": "Gadisaa Abara",
-        "place": "finchaa",
-        "description": "Magaalaa finchaa keessatti kan argamuu kutaa 2 kan qabuu",
-        "imagePath": "food_6.jpg",
-        "price": 1600,
+        "title": "Shiro",
+        "place": "Boranaa University employees caffe",
+        "description": "My Caffe Shiro is a traditional Ethiopian dish made from ground chickpeas or lentils, seasoned with spices and served with injera. It's known for its rich flavor and hearty texture, making it a popular choice for a satisfying meal.",
+        "imagePath": "shiro.jpg",
+        "price": 100,
+      
+        "phone":"0928629040"
+    },
+    {
+        "title": "Xibsii",
+        "place": "Boranaa University employees caffe",
+        "description": "My Caffe Xibsii is a traditional Ethiopian dish made from a mix of spices and ingredients, often served with injera. It's known for its unique flavor profile and cultural significance, making it a beloved choice for a hearty meal.",
+        "imagePath": "xibsii_1.jpg",
+        "price": 200,
+      
         "phone":"0928629640"
     },
     {
-        "title": "Etafaa Tarikuu",
-        "place": "burayu",
-        "description": "Magaalaa burayu keessatti kan argamuu kutaa 4 kan qabuu",
-        "imagePath": "food_7.jpg",
-        "price": 2000,
+        "title": "sanbosa",
+        "place": "Boranaa University employees caffe",
+        "description": "My Caffe Sanbosa is a popular Ethiopian snack made from thin pastry filled with a variety of ingredients, such as lentils or vegetables. It's known for its crispy texture and flavorful filling, making it a delightful treat.",
+        "imagePath": "sanbusa_1.jpg",
+            
+        
+        "price": 15,
         "phone":"0928629040"
     },
     {
-        "title": "Guyyoo Gadaa",
-        "place": "yabello",
-        "description": "yabellotti kan argamu kutaa cisicha 3 kan qabuu",
-        "imagePath": "food_8.jpg",
-        "price": 1800,
-        "phone":"0928629045"
+        "title": "makatoo",
+        "place": "Boranaa University employees caffe",
+        "description": "My Makatoo is a traditional Ethiopian dish made from a mix of spices and ingredients, often served with injera. It's known for its unique flavor profile and cultural significance, making it a beloved choice for a hearty meal.",
+        "imagePath": "mack_tea_1.jpg",
+   
+        "price": 15,
+        "phone":"0928629040"
     },
     {
-        "title": "Gadisaa Abara",
-        "place": "Shanbuu",
-        "description": "yabellotti kan argamu kutaa cisicha 4 kan qabuu",
-        "imagePath": "food_9.jpg",
-        "price": 1500,
-        "phone":"0928629111"
+        "title": "pasta",
+        "place": "Boranaa University employees caffe",
+        "description": "My Pasta is a delicious and satisfying dish made from high-quality pasta, cooked to perfection and often served with a variety of sauces and ingredients. It's known for its comforting texture and rich flavor, making it a popular choice for a hearty meal.",
+        "imagePath": "pastaa_1.jpg",
+            
+        "price": 120,
+        "phone":"0928629040"
     },
     {
-        "title": "Usman badhasa",
-        "place": "Arsii",
-        "description": "Arsii tti kan argamu kutaa cisicha 2 kan qabuu",
-        "imagePath": "food_10.jpg",
-        "price": 1800,
-        "phone":"0928629045"
+        "title": "bayaynat",
+        "place": "Boranaa University employees caffe",
+        "description": "My Bayaynat is a traditional Ethiopian dish made from a mix of spices and ingredients, often served with injera. It's known for its unique flavor profile and cultural significance, making it a beloved choice for a hearty meal.",
+        "imagePath": "bay_1.jpg",
+
+        "price": 120,
+        "phone":"0928629040"
     },
     {
-        "title": "Esaayas Abdi",
-        "place": "Asallaa",
-        "description": "Asallaa tti kan argamu kutaa cisicha 4 kan qabuu",
-        "imagePath": "food_11.jpg",
-        "price": 2000,
-        "phone":"0928629035"
-    }
+        "title": "water",
+        "place": "Boranaa University employees caffe",
+        "description": "My Caffe Water is pure, clean drinking water sourced from local springs in Yebelo, Oromia. It's known for its refreshing taste and essential hydration properties, making it a perfect complement to your meal.",
+        "imagePath": "water_1.jpg",
+        "price": 35,
+        "phone":"0928629040"
+
+    },
+{
+      "title": "mango juce",
+
+        "place": "Boranaa University employees caffe",
+        "description": "My Caffe mango juce is pure, clean drinking and for your  your meal.",
+        "imagePath": "mango_1.jpg",
+        "price": 80,
+        "phone":"0928629040"
+
+}
 ]
