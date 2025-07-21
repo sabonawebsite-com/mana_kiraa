@@ -86,5 +86,13 @@
         "imagePath": "hos33.png",
         "price": 2000,
         "phone":"0928629035"
+    },
+    {
+        "title": "mootii",
+        "place": "fincha",
+        "description": "fincha tti kan argamu kutaa cisicha 4 kan qabuu",
+        "imagePath": "hos33.png",
+        "price": 2000,
+        "phone":"0942907065"
     }
 ]
